@@ -4,7 +4,7 @@
 
 Installation and usage:
 
-- Download app for (https://github.com/bdhwan/OpenInCursor/build/Open in Cursor.zip)
+- Download app for (https://github.com/bdhwan/OpenInCursor/Release/Open in Cursor.zip)
 
 - Move Open in Code.app to /Applications
 - Go to /Applications
