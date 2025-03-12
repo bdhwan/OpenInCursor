@@ -32,5 +32,9 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>This app needs to access Finder to get the current folder path.</string>
+	<key>NSAppleScriptEnabled</key>
+	<true/>
 </dict>
 </plist>

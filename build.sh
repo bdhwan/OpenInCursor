@@ -31,4 +31,8 @@ cp icon.icns "build/Open in Cursor.app/Contents/Resources/"
 # Create PkgInfo file
 echo "APPLcur " > "build/Open in Cursor.app/Contents/PkgInfo"
 
+# Code sign the app with entitlements
+echo "Code signing app with entitlements..."
+codesign --force --deep --sign - --entitlements OpenInCursor.entitlements "build/Open in Cursor.app"
+
 echo "Build complete. App is in build/Open in Cursor.app" 
